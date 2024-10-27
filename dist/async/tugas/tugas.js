@@ -62,7 +62,7 @@ function hitungMundur(durasi) {
     }, 1000);
 }
 // hitungMundur(10);
-///////////////// nomor 2  ///////////////////////////////////////
+///////////////// nomor 2  //////////////////
 function manggilNama() {
     return __awaiter(this, void 0, void 0, function* () {
         try {

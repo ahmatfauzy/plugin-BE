@@ -58,7 +58,7 @@ function hitungMundur(durasi: number) {
 }
 // hitungMundur(10);
 
-///////////////// nomor 2  ///////////////////////////
+///////////////// nomor 2  //////////////////
 async function manggilNama() {
   try {
     const response = await fetch("https://jsonplaceholder.typicode.com/users");
