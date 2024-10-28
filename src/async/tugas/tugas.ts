@@ -6,8 +6,8 @@ function mangkat() {
   const mangkatPlugin = setInterval(() => {
     hitungan++;
 
-    const a = "fauzi"
-    const b = "rafi"
+    const a = "fauzi";
+    const b = "rafi";
 
     if (hitungan === 1) {
       console.log(`${a} : cuy`);
@@ -26,6 +26,8 @@ function mangkat() {
 mangkat();
 
 //
+//
+//
 function tampilkanWaktu(awal: number, akhir: number) {
   // let detik = 1;
 
@@ -39,7 +41,6 @@ function tampilkanWaktu(awal: number, akhir: number) {
     }
   }, 1000);
 }
-
 // tampilkanWaktu(1, 5);
 
 // hitung mundur

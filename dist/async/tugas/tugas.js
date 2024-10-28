@@ -80,4 +80,4 @@ function manggilNama() {
         }
     });
 }
-manggilNama();
+// manggilNama();
