@@ -71,8 +71,8 @@ function manggilNama() {
                 throw new Error("error");
             }
             const nama = yield response.json();
-            nama.forEach((cuy) => {
-                console.log(cuy.name);
+            nama.forEach((data) => {
+                console.log(data.name);
             });
         }
         catch (error) {
@@ -80,4 +80,4 @@ function manggilNama() {
         }
     });
 }
-// manggilNama();
+manggilNama();

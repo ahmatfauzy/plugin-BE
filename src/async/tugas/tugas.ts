@@ -69,8 +69,8 @@ async function manggilNama() {
 
     const nama = await response.json();
 
-    nama.forEach((cuy: { name: string }) => {
-      console.log(cuy.name);
+    nama.forEach((data: { name: string }) => {
+      console.log(data.name);
     });
   } catch (error) {
     console.error(error);
